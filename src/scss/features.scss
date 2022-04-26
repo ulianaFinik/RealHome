@@ -1,0 +1,34 @@
+.feature {
+    background: $grayDark;
+    padding: 100px 0;
+    text-align: center;
+
+    &__icon {
+        padding-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 25px;
+    }
+
+    &__p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1230px) {
+
+    .feature {
+        padding: 60px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .feature {
+        padding: 45px 15px;
+    }
+
+}

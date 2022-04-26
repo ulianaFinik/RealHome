@@ -1,0 +1,163 @@
+.contacts {
+    &__h1 {
+        padding-bottom: 70px;
+    }
+    &__box {
+        padding-bottom: 120px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        width: 33%;
+        padding-right: 55px;
+    }
+    &__info-h1 {
+        font-size: 45px;
+        padding-bottom: 35px;
+    }
+    &__info-text {
+        padding-bottom: 30px;
+    }
+    &__info-adress {
+        padding-bottom: 24px;
+    }
+    &__form {
+        width: 66%;
+    }
+    &__form-h1 {
+        padding-bottom: 50px;
+    }
+
+        &__form-textarea {
+            width: 100%;
+            border: 1px solid #DFDFDF;
+            border-radius: 24px;
+            padding: 14px 17px;
+            min-height: 125px;
+            resize: none; /* чтобы не растягивалась вручную */
+            margin-bottom: 12px;
+            &::placeholder {
+                color: #A1A1A1;
+                font-size: 16px;
+                line-height: 27px;
+                font-weight: 400;
+                font-family: 'Open Sans', sans-serif;
+        }
+    }
+    &__form-input {
+        border: 1px solid #DFDFDF;
+        border-radius: 20px;
+        padding: 6px 17px;
+        margin-bottom: 13px;
+        width: 48%;
+         &::placeholder {
+            color: #A1A1A1;
+            font-size: 16px;
+            line-height: 27px;
+            font-weight: 400;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    &__form-btn {
+        border: none;
+        color: $red;
+        font-weight: 600;
+        border-radius: 21px;
+        padding: 6px 60px;
+        cursor: pointer;
+    }
+    &__form-label {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: $red;
+    }
+    &__row {
+        display: flex;
+    }
+}
+
+.map {
+    padding-bottom: 70px;
+}
+
+
+
+
+// FAQ
+.faq {
+    &__h1 {
+        padding-bottom: 70px;
+    }
+    &__question,
+    &__answer {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__question {
+        padding-bottom: 30px;
+    }
+    &__question-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        background-color: $red;
+        color: #fff;
+        margin-right: 15px;
+        border-radius: 4px;
+    }
+    &__answer-icon {
+        padding: 26px 24px 21px 23px;
+        background-color: #e6e6e6;
+        color: #c2c1c1;
+        margin-right: 15px;
+        border-radius: 4px;
+    }
+    &__item {
+        padding-bottom: 70px;
+    }
+}
+
+//testimonials-object
+.testimonials-object {
+    &__h1 {
+        padding-bottom: 100px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f6f6f6;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items {
+        max-width: 756px;
+        padding-right: 55px;
+        border-right: 1px solid #f3f2f2;
+    }
+    &__text-p1 {
+        padding-bottom: 24px;
+    }
+    &__text-p2 {
+        padding-bottom: 50px;
+    }
+    &__text-name {
+        padding-bottom: 15px;
+    }
+    &__text-link {
+        color: $red;
+    }
+    &__avatar {
+        height: 100px;
+        padding-right: 26px;
+    }
+}

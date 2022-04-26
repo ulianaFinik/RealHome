@@ -1,0 +1,129 @@
+.blog {
+    padding-top: 30px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items {
+        max-width: 730px;
+    }
+    &__item {
+        margin-bottom: 30px;
+    }
+    &__item-img {
+        max-width: 730px;
+    }
+    &__item-title {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    &__item-text {
+        font-size: 16px;
+    }
+    &__item-img,
+    &__item-title {
+        padding-bottom: 40px;
+    }
+
+    //  Aside Cathegory
+    &__category {
+        margin-bottom: 36px;
+    }
+    &__category-title {
+        margin-bottom: 16px;
+        line-height: 23px;
+        font-weight: bold;
+    }
+    &__category-item {
+        margin-bottom: 12px;
+    }
+
+    
+    &__border {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            color: #f0f4f5;
+            width: 757px;
+            height: 3px;
+            background-color: #f0f4f5;
+        }
+    }
+}
+
+
+
+.btn-more {
+    margin-top: 20px;
+    background: $red;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    padding: 18px 25px;
+    margin-bottom: 50px;
+    &:hover {
+        background: $red;
+    }
+}
+
+.pagination {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    &__list {
+        display: flex;
+    }
+    &__list-item {
+        margin: 7px 7px;
+    }
+    &__arrow {
+        margin: 0 6px;
+    }
+    &__arrow--disabled {
+        display: none;
+    }
+    &__list-num {
+        font-weight: 600;
+        font-size: 18px;
+        padding: 20px 31px 21px 27px;
+        background-color: #f3f2f2;
+        color: black;
+    }
+    &__list-num--active {
+        color: #fff;
+        padding: 20px 31px 21px 27px;
+        background-color: $red;
+    }
+}
+
+.aside {
+    width: 364px;
+    margin-left: 100px;
+}
+
+
+.recent-posts {
+    margin-top: 60px;
+    &__title {
+        margin-bottom: 24px;
+        line-height: 23px;
+        font-weight: bold;
+    }
+    &__item {
+        margin-bottom: 11px;
+    }
+    &__item-title {
+        color: inherit;
+        font-weight: bold;
+    }
+    &__date,
+    &__author {
+        color: #a1a1a1;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}

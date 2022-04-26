@@ -1,0 +1,79 @@
+@import 'colors';
+@import 'header';
+@import 'footer';
+@import 'home';
+@import 'fonts.scss';
+@import 'colors.scss';
+@import 'base.scss';
+@import 'footer.scss';
+
+// pages and components
+@import 'home.scss';
+@import 'carousel.scss';
+@import 'features.scss';
+@import 'carousel-picture-content.scss';
+@import 'banner.scss';
+@import 'testimonials.scss';
+@import 'partners.scss';
+@import 'breadcrumbs.scss';
+@import 'about.scss';
+@import 'blog.scss';
+@import 'contacts.scss';
+@import 'property.scss';
+@import 'properties.scss';
+@import 'property-page.scss';
+@import 'testimonials-object.scss';
+@import 'object.scss';
+@import 'faq.scss';
+@import 'blog-post.scss';
+@import 'navbar.scss';
+
+
+a {
+    color: #3c3c3c;
+    a:hover {
+        color: #e2574c;
+    }
+}
+
+.logo {
+    padding-right: 100px;
+  }
+.collapse-fontsize {
+    font-size: 18px;
+}
+
+.menu-link {
+    padding: 25px 30px;
+    &:hover {
+        background: $gray;
+    }
+}
+.social {
+    min-width: 160px;
+    a {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid $gray;
+        border-radius: 50%;
+        margin-right: 10px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1170px) {
+    .logo {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .menu-link {
+        padding: 28px 20px;
+    }
+}
+
+@media (max-width: 799px) {
+
+}

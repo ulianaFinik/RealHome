@@ -1,0 +1,32 @@
+.breadcrumbs {
+    position: relative;
+    z-index: 10;
+        &__list {
+            display: flex;
+            overflow-x: auto;
+        }
+        &__item {
+            position: relative;
+            padding-right: 8px;
+        }
+
+        &__item:last-child:after {
+            display: none;
+        }
+        &__link {
+            font-size: 14px;
+            color: #5A5A5A;
+        }
+        &__link::before {
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            width: 100px;
+            height: 100px;
+            background-image: url('../assets/img/arrow.png');
+        }
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}

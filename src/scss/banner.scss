@@ -1,0 +1,48 @@
+.banner {
+    & .row {
+       text-align: center; 
+    }
+    height: 135px;
+    background: $gray;
+    display: flex;
+
+    &__height {
+        height: 100%;
+    }
+
+    &__title {
+        font-size: 37px;
+    }
+
+    &__btn {
+        background: $red;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+@media (max-width: 1230px) {
+
+    .banner__title {
+        font-size: 30px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .banner__title {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    .banner__btn {
+            padding: 8px 11px;
+    }
+    .btn-lg {
+        font-size: 11px;
+    }
+}

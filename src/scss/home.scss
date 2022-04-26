@@ -1,0 +1,70 @@
+.home {
+    position: relative;
+
+    &__offering {
+        padding: 125px 0;
+        position: relative;
+    }
+    &__offering-title {
+        font-size: 37px;
+        color: $black;
+        text-align: right;
+        font-weight: 500;
+        padding-right: 30px;
+;
+    }
+    &_border {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 55px;
+            width: 50px;
+            height: 3px;
+            background-color: $black;
+        }
+    }
+}
+
+
+
+@media (max-width: 1230px) {
+    .carousel__h1 {
+        font-size: 11px;
+    }
+    .navbar {
+        padding: 0px 40px;
+    }
+    .home__offering {
+        padding: 61px 30px;
+    }
+
+    .home__offering-title {
+        font-size: 29px;
+    }
+    .banner__title {
+        font-size: 30px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .home {
+        &__offering-title {
+            padding-bottom: 30px;
+        }
+        &__offering {
+            padding: 41px 30px;
+        }
+        &__offering-text {
+            font-size: 15px;
+            padding-top: 30px;
+        }
+    }
+    .col-md-3 {
+        padding-bottom: 30px;
+    }
+}
+

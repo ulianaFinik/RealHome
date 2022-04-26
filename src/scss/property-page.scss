@@ -1,0 +1,8 @@
+/*  карточки Property на отдельной странице   */
+.property-page {
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
